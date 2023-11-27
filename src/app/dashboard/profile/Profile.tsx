@@ -62,11 +62,13 @@ export default function Profile() {
             data: usernames,
         } = await supabase.from('profiles').select().match({ username: data.username });
 
+        
         if (usernames != null && usernames.length > 0) {
             setErrorUsername('Username already exists')
             setIsLoading(false)
             return
         }
+        
         
         if (profiles?.length !== 0) {
             

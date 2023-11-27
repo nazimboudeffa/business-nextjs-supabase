@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import Profile from './Profile'
+import Social from './Social'
 import SideNav from '@/components/SideNav'
 import SideNavSticky from '@/components/SideNavSticky'
 
@@ -26,7 +27,14 @@ async function Dashboard () {
           <SideNav />
           <div className="flex flex-col">
               <SideNavSticky />
-              {!session ? (<div>You must be loggedin</div>) : (<Profile />)}                  
+              {!session ? (<div>You must be loggedin</div>) 
+              : 
+              (<div>
+                <h2 className="text-xl mt-5 mb-5 ml-5">Profile</h2>
+                <Profile />
+                <Social />
+               </div>
+              )}                  
           </div>
       </div>
     </>
