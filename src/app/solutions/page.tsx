@@ -39,8 +39,8 @@ const Services = async function () {
             description:
                 "Create marketing campaings.",
             icon: <XCircle />,
-            color: "red",
-            link: "/",
+            color: "green",
+            link: "/solutions/marketing",
         },
         {
             id: "3",
