@@ -11,11 +11,11 @@ function Hero () {
             className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
             >
             <h2 className="text-2xl font-bold text-gray-900 md:text-3xl dark:text-white">
-                The best way to manage your business online
+                The best way to manage online business
             </h2>
 
             <p className="hidden text-gray-500 md:mt-4 md:block">
-                Turn your business dreams into reality with our online business application. Build a network, expand your reach, and achieve new heights of success.
+                Turn your business dreams into reality with our online business management application. Build a network, expand your reach, and achieve new heights of success.
             </p>
 
             <div className="mt-4 md:mt-8">
