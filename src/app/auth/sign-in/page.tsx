@@ -41,12 +41,16 @@ export default async function SignIn() {
                 </div>
                 <UserAuthForm />
                 <p className="px-8 text-center text-sm text-muted-foreground">
+                    Don&apos;t have an account? 
                     <Link
                         href="/auth/sign-up"
                         className="hover:text-brand underline underline-offset-4"
                     >
-                        Don&apos;t have an account? Sign Up
+                    Sign Up
                     </Link>
+                </p>
+                <p className="text-sm text-muted-foreground">
+                    By signing in, you agree to our <Link href="/tos"><u>Terms of Service</u></Link> and <Link href="/privacy-policy"><u>Privacy Policy</u></Link>
                 </p>
             </div>
         </div>
