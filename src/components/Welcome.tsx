@@ -7,7 +7,7 @@ function Welcome () {
 
   return (
     <>
-    <header className="flex flex-col items-center gap-10 text-center">
+    <header className="flex flex-col items-center gap-10 text-center mt-10">
       <h1
         className={`text-3xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl ${fontHeading.variable}`}
       >
@@ -17,7 +17,7 @@ function Welcome () {
         Your business journey starts here
       </p>
     </header>
-    <section>
+    <section className="mt-5">
       <Link
         href="/solutions/announcements"
         className="group mx-auto flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.1)] backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50"

@@ -19,24 +19,24 @@ async function Home () {
   if (!session) {
     return (
       <>
-      <div className="min-h-screen flex flex-col justify-between">
       <Header session = { session } />
-      <Hero />
-      <Problem />
-      <Features />
+      <main className="min-h-screen flex flex-col justify-between">
+        <Hero />
+        <Problem />
+        <Features />
+      </main>
       <Footer />
-      </div>
       </>
     )
   }
 
   return (
     <>
-    <div className="min-h-screen flex flex-col justify-between">
     <Header session = { session } />
-    <Welcome />
+    <main className="min-h-screen flex flex-col">
+      <Welcome />
+    </main>
     <Footer />
-    </div>
     </>
   )
 }
