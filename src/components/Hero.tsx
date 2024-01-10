@@ -14,7 +14,7 @@ function Hero () {
                 The best way to manage online business
             </h2>
 
-            <p className="hidden text-gray-500 md:mt-4 md:block">
+            <p className="hidden text-gray-500 md:mt-4 md:block dark:text-white">
                 Turn your business dreams into reality with our online business management application. Build a network, expand your reach, and achieve new heights of success.
             </p>
 
