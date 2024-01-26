@@ -33,6 +33,12 @@ function Header ( { session } : { session: Session | null } ) {
 
     return (
         <header>
+        <div className="bg-indigo-600 px-4 py-3 text-white">
+        <p className="text-center text-sm font-medium">
+            We are moving to a VPS with Coolify and MongoDB <a href="https://github.com/nazimboudeffa/business-nextjs-mongo" className="inline-block underline">Check out the new site!</a>
+        </p>
+        </div>
+
         <div className="mx-auto border-b px-4 sm:px-6 lg:px-8 bg-zinc-100/40 dark:bg-zinc-800/40">
             <div className="mx-auto flex h-16 items-center justify-between max-w-screen-xl">
             <div className="md:flex md:items-center md:gap-12">
